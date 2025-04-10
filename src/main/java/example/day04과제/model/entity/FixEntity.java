@@ -30,7 +30,7 @@ public class FixEntity extends BaseTime {
                 .name(this.name)
                 .description(this.description)
                 .quantity(this.quantity)
-                .createDateTime(this.getCreateAt()) // BaseTime 에 존재함
+                .createAt(this.getCreateAt()) // BaseTime 에 존재함
                 .build();
     }
 

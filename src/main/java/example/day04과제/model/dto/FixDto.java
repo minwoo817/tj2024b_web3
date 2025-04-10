@@ -18,7 +18,7 @@ public class FixDto {
     private String description; // 내용
     private int quantity; // 상태
     // + 등록날짜
-    private LocalDateTime createDateTime;
+    private LocalDateTime createAt;
 
     // dto -> entity 변환 함수
     public FixEntity fixEntity() {
