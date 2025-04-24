@@ -79,4 +79,5 @@ public class JwtUtil {
     public void deleteToken( String memail ){
         stringRedisTemplate.delete( "JWT:"+memail );
     }
+
 } // class end
